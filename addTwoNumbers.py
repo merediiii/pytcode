@@ -14,7 +14,6 @@ class Solution:
         while l1 or l2:
             x = l1.val if l1 else 0
             y = l2.val if l2 else 0
-            # cur = (l1.val + l2.val)//10;r.val = (l1.val + l2.val)%10
             s = cur + x + y
             cur = s // 10
             r.next = ListNode(s % 10)
