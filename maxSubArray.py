@@ -13,7 +13,8 @@ class Solution:
 
 
         # for i in range(1, len(nums)):
-        #     nums[i] = nums[i] + max(nums[i - 1], 0)
+        #     nums[i] = nums[i] + max(nums[i - 1], 0)       #   nums[i-1]是前i-1项最大连续子序和，其中max(nums[i-1],0)是因为如果最大连续子序和必不可能加上一个负数
+        #                                                   #   所以nums[i] + nums即是前i项最大连续子序和，所以第n项nums[n]即是该数组里的最大连续子序和
         # return max(nums)
 
 if __name__ == '__main__':
