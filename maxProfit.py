@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from typing import List
 
-
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         r = 0
@@ -13,4 +12,4 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.c([7,1,5,3,6,4]))
+    print(s.maxProfit([7,1,5,3,6,4]))
